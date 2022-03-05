@@ -1,0 +1,61 @@
+:root {
+	font-family: "Open sans";
+}
+h1 {
+	color:white;
+	background-color:black;
+  padding: 2px;
+}
+.titulo {
+	color: white;
+	background-color:black;
+  padding: 2px;
+}
+.timeline {
+  margin: 0 auto;
+  padding: 25px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 200px 0.25px 8fr;
+}
+
+.timeline__component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline__middle {
+  position: relative;
+  background: #a5a5a5;
+}
+
+.timeline__point {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  background: #828282;
+  /*border-radius: 50%;*/
+}
+
+.timeline__date {
+  text-align: right;
+  font-weight: bold;
+}
+
+.timeline_subdate {
+  text-align: right;
+  color: #a5a5a5;
+  font-weight: 200;
+}
+
+.timeline__title {
+  margin: 0;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.timeline__paragraph {
+  line-height: 1.3;
+  margin: 0px 0px 0px 15px;
+}
